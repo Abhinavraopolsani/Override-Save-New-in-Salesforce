@@ -1,0 +1,5 @@
+<apex:page standardController="P2P_TierA__c" extensions="P2P_TierA_NewInfoMessageController" action="{!onLoadPage}">
+	<apex:pageMessages />
+	<!--
+	<apex:pageMessage severity="Error" summary="First Error message on page" strength="1"/> -->
+</apex:page>
