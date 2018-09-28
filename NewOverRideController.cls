@@ -8,11 +8,12 @@ Developer                Date            Description
 -----------------------------------------------------------------------------------------------------------------
 Abhinav Polsani       08/17/2018      Initial Version
 */
-public with sharing class P2P_TierA_NewInfoMessageController {
+public with sharing class NewOverRideController {
 
     public String debug{get;Set;}
     private String SObjectPrefix = null;
-    public P2P_TierA_NewInfoMessageController(ApexPages.StandardController controller){
+    
+    public NewOverRideController(ApexPages.StandardController controller){
         this.SObjectPrefix = controller.getRecord().getSObjectType().getDescribe().getKeyPrefix();
     }
     
