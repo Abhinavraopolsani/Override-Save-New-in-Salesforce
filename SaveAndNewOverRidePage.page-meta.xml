@@ -3,5 +3,5 @@
     <apiVersion>36.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>P2P_TierA_NewInfoMessage</label>
+    <label>SaveAndNewOverRidePage</label>
 </ApexPage>
